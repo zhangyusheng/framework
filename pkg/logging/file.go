@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zhangyusheng/data-center/pkg/setting"
+	"github.com/zhangyusheng/framework/pkg/setting"
 )
 
 // getLogFilePath get the log file save path

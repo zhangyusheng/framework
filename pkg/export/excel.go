@@ -1,6 +1,6 @@
 package export
 
-import "github.com/zhangyusheng/data-center/pkg/setting"
+import "github.com/zhangyusheng/framework/pkg/setting"
 
 const EXT = ".xlsx"
 

@@ -3,10 +3,10 @@ package article_service
 import (
 	"encoding/json"
 
-	"github.com/zhangyusheng/data-center/models"
-	"github.com/zhangyusheng/data-center/pkg/gredis"
-	"github.com/zhangyusheng/data-center/pkg/logging"
-	"github.com/zhangyusheng/data-center/service/cache_service"
+	"github.com/zhangyusheng/framework/models"
+	"github.com/zhangyusheng/framework/pkg/gredis"
+	"github.com/zhangyusheng/framework/pkg/logging"
+	"github.com/zhangyusheng/framework/service/cache_service"
 )
 
 type Article struct {

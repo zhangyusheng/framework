@@ -6,9 +6,9 @@ import (
 	"github.com/boombuler/barcode"
 	"github.com/boombuler/barcode/qr"
 
-	"github.com/zhangyusheng/data-center/pkg/file"
-	"github.com/zhangyusheng/data-center/pkg/setting"
-	"github.com/zhangyusheng/data-center/pkg/util"
+	"github.com/zhangyusheng/framework/pkg/file"
+	"github.com/zhangyusheng/framework/pkg/setting"
+	"github.com/zhangyusheng/framework/pkg/util"
 )
 
 type QrCode struct {

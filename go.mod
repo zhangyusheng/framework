@@ -1,4 +1,4 @@
-module github.com/zhangyusheng/data-center
+module github.com/zhangyusheng/framework
 
 go 1.13
 

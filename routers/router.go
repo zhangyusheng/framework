@@ -5,16 +5,16 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	_ "github.com/zhangyusheng/data-center/docs"
+	_ "github.com/zhangyusheng/framework/docs"
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 
-	"github.com/zhangyusheng/data-center/middleware/jwt"
-	"github.com/zhangyusheng/data-center/pkg/export"
-	"github.com/zhangyusheng/data-center/pkg/qrcode"
-	"github.com/zhangyusheng/data-center/pkg/upload"
-	"github.com/zhangyusheng/data-center/routers/api"
-	"github.com/zhangyusheng/data-center/routers/api/v1"
+	"github.com/zhangyusheng/framework/middleware/jwt"
+	"github.com/zhangyusheng/framework/pkg/export"
+	"github.com/zhangyusheng/framework/pkg/qrcode"
+	"github.com/zhangyusheng/framework/pkg/upload"
+	"github.com/zhangyusheng/framework/routers/api"
+	"github.com/zhangyusheng/framework/routers/api/v1"
 )
 
 // InitRouter initialize routing information

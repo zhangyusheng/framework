@@ -1,6 +1,6 @@
 package auth_service
 
-import "github.com/zhangyusheng/data-center/models"
+import "github.com/zhangyusheng/framework/models"
 
 type Auth struct {
 	Username string

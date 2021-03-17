@@ -8,13 +8,13 @@ import (
 	"github.com/boombuler/barcode/qr"
 	"github.com/gin-gonic/gin"
 
-	"github.com/zhangyusheng/data-center/pkg/app"
-	"github.com/zhangyusheng/data-center/pkg/e"
-	"github.com/zhangyusheng/data-center/pkg/qrcode"
-	"github.com/zhangyusheng/data-center/pkg/setting"
-	"github.com/zhangyusheng/data-center/pkg/util"
-	"github.com/zhangyusheng/data-center/service/article_service"
-	"github.com/zhangyusheng/data-center/service/tag_service"
+	"github.com/zhangyusheng/framework/pkg/app"
+	"github.com/zhangyusheng/framework/pkg/e"
+	"github.com/zhangyusheng/framework/pkg/qrcode"
+	"github.com/zhangyusheng/framework/pkg/setting"
+	"github.com/zhangyusheng/framework/pkg/util"
+	"github.com/zhangyusheng/framework/service/article_service"
+	"github.com/zhangyusheng/framework/service/tag_service"
 )
 
 // @Summary Get a single article

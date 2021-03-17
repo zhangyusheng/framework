@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/zhangyusheng/data-center/pkg/e"
+	"github.com/zhangyusheng/framework/pkg/e"
 )
 
 type Gin struct {

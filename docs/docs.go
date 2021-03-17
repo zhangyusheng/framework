@@ -19,11 +19,11 @@ var doc = `{
     "info": {
         "description": "{{.Description}}",
         "title": "{{.Title}}",
-        "termsOfService": "https://github.com/zhangyusheng/data-center",
+        "termsOfService": "https://github.com/zhangyusheng/framework",
         "contact": {},
         "license": {
             "name": "MIT",
-            "url": "https://github.com/zhangyusheng/data-center/blob/master/LICENSE"
+            "url": "https://github.com/zhangyusheng/framework/blob/master/LICENSE"
         },
         "version": "{{.Version}}"
     },

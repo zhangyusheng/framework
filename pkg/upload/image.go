@@ -8,10 +8,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/zhangyusheng/data-center/pkg/file"
-	"github.com/zhangyusheng/data-center/pkg/logging"
-	"github.com/zhangyusheng/data-center/pkg/setting"
-	"github.com/zhangyusheng/data-center/pkg/util"
+	"github.com/zhangyusheng/framework/pkg/file"
+	"github.com/zhangyusheng/framework/pkg/logging"
+	"github.com/zhangyusheng/framework/pkg/setting"
+	"github.com/zhangyusheng/framework/pkg/util"
 )
 
 // GetImageFullUrl get the full access path

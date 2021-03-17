@@ -7,12 +7,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/zhangyusheng/data-center/models"
-	"github.com/zhangyusheng/data-center/pkg/gredis"
-	"github.com/zhangyusheng/data-center/pkg/logging"
-	"github.com/zhangyusheng/data-center/pkg/setting"
-	"github.com/zhangyusheng/data-center/pkg/util"
-	"github.com/zhangyusheng/data-center/routers"
+	"github.com/zhangyusheng/framework/models"
+	"github.com/zhangyusheng/framework/pkg/gredis"
+	"github.com/zhangyusheng/framework/pkg/logging"
+	"github.com/zhangyusheng/framework/pkg/setting"
+	"github.com/zhangyusheng/framework/pkg/util"
+	"github.com/zhangyusheng/framework/routers"
 )
 
 func init() {
@@ -26,9 +26,9 @@ func init() {
 // @title Golang Gin API
 // @version 1.0
 // @description An example of gin
-// @termsOfService https://github.com/zhangyusheng/data-center
+// @termsOfService https://github.com/zhangyusheng/framework
 // @license.name MIT
-// @license.url https://github.com/zhangyusheng/data-center/blob/master/LICENSE
+// @license.url https://github.com/zhangyusheng/framework/blob/master/LICENSE
 func main() {
 	gin.SetMode(setting.ServerSetting.RunMode)
 

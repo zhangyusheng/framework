@@ -7,13 +7,13 @@ import (
 	"github.com/astaxie/beego/validation"
 	"github.com/gin-gonic/gin"
 
-	"github.com/zhangyusheng/data-center/pkg/app"
-	"github.com/zhangyusheng/data-center/pkg/e"
-	"github.com/zhangyusheng/data-center/pkg/export"
-	"github.com/zhangyusheng/data-center/pkg/logging"
-	"github.com/zhangyusheng/data-center/pkg/setting"
-	"github.com/zhangyusheng/data-center/pkg/util"
-	"github.com/zhangyusheng/data-center/service/tag_service"
+	"github.com/zhangyusheng/framework/pkg/app"
+	"github.com/zhangyusheng/framework/pkg/e"
+	"github.com/zhangyusheng/framework/pkg/export"
+	"github.com/zhangyusheng/framework/pkg/logging"
+	"github.com/zhangyusheng/framework/pkg/setting"
+	"github.com/zhangyusheng/framework/pkg/util"
+	"github.com/zhangyusheng/framework/service/tag_service"
 )
 
 // @Summary Get multiple article tags

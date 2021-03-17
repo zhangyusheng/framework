@@ -5,10 +5,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/zhangyusheng/data-center/pkg/app"
-	"github.com/zhangyusheng/data-center/pkg/e"
-	"github.com/zhangyusheng/data-center/pkg/logging"
-	"github.com/zhangyusheng/data-center/pkg/upload"
+	"github.com/zhangyusheng/framework/pkg/app"
+	"github.com/zhangyusheng/framework/pkg/e"
+	"github.com/zhangyusheng/framework/pkg/logging"
+	"github.com/zhangyusheng/framework/pkg/upload"
 )
 
 // @Summary Import Image

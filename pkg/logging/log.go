@@ -2,7 +2,7 @@ package logging
 
 import (
 	"fmt"
-	"github.com/zhangyusheng/data-center/pkg/file"
+	"github.com/zhangyusheng/framework/pkg/file"
 	"log"
 	"os"
 	"path/filepath"

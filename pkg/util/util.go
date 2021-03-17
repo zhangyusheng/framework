@@ -1,6 +1,6 @@
 package util
 
-import "github.com/zhangyusheng/data-center/pkg/setting"
+import "github.com/zhangyusheng/framework/pkg/setting"
 
 // Setup Initialize the util
 func Setup() {

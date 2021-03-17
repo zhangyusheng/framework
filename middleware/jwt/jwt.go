@@ -6,8 +6,8 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 
-	"github.com/zhangyusheng/data-center/pkg/e"
-	"github.com/zhangyusheng/data-center/pkg/util"
+	"github.com/zhangyusheng/framework/pkg/e"
+	"github.com/zhangyusheng/framework/pkg/util"
 )
 
 // JWT is jwt middleware
