@@ -6,6 +6,7 @@ import (
 
 	"github.com/zhangyusheng/framework/pkg/app"
 	"github.com/zhangyusheng/framework/pkg/e"
+	"github.com/zhangyusheng/framework/pkg/logging"
 )
 
 type AddTagForm struct {
@@ -23,7 +24,7 @@ type AddTagForm struct {
 // @Failure 500 {object} app.Response
 // @Router /api/v1/test [post]
 func Test(c *gin.Context) {
-
+	logging.Info(map[string]interface{}{"name":"zhangyusheng"}, "good")
 	var (
 		appG = app.Gin{C: c}
 	)

@@ -2,14 +2,13 @@ package upload
 
 import (
 	"fmt"
-	"log"
+	"github.com/zhangyusheng/framework/pkg/logging"
 	"mime/multipart"
 	"os"
 	"path"
 	"strings"
 
 	"github.com/zhangyusheng/framework/pkg/file"
-	"github.com/zhangyusheng/framework/pkg/logging"
 	"github.com/zhangyusheng/framework/pkg/setting"
 	"github.com/zhangyusheng/framework/pkg/util"
 )
@@ -54,8 +53,7 @@ func CheckImageExt(fileName string) bool {
 func CheckImageSize(f multipart.File) bool {
 	size, err := file.GetSize(f)
 	if err != nil {
-		log.Println(err)
-		logging.Warn(err)
+		logging.Error(map[string]interface{}{}, err.Error())
 		return false
 	}
 

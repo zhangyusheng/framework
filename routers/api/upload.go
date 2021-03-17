@@ -7,7 +7,6 @@ import (
 
 	"github.com/zhangyusheng/framework/pkg/app"
 	"github.com/zhangyusheng/framework/pkg/e"
-	"github.com/zhangyusheng/framework/pkg/logging"
 	"github.com/zhangyusheng/framework/pkg/upload"
 )
 
@@ -21,7 +20,6 @@ func UploadImage(c *gin.Context) {
 	appG := app.Gin{C: c}
 	file, image, err := c.Request.FormFile("image")
 	if err != nil {
-		logging.Warn(err)
 		appG.Response(http.StatusInternalServerError, e.ERROR, nil)
 		return
 	}
@@ -43,13 +41,11 @@ func UploadImage(c *gin.Context) {
 
 	err = upload.CheckImage(fullPath)
 	if err != nil {
-		logging.Warn(err)
 		appG.Response(http.StatusInternalServerError, e.ERROR_UPLOAD_CHECK_IMAGE_FAIL, nil)
 		return
 	}
 
 	if err := c.SaveUploadedFile(image, src); err != nil {
-		logging.Warn(err)
 		appG.Response(http.StatusInternalServerError, e.ERROR_UPLOAD_SAVE_IMAGE_FAIL, nil)
 		return
 	}
